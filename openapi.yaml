@@ -14,15 +14,15 @@
 ---
 swagger: "2.0"
 info:
-  title: "Tanatanh Airport Codes"
+  title: "Tanatanh 2 Airport Codes"
   description: "Get the name of an airport from its three-letter IATA code."
   version: "1.0.0"
 # This field will be replaced by the deploy_api.sh script.
-host: "tanatanh.think-products-224421.appspot.com"
+host: "tanatanh2.think-products-224421.appspot.com"
 schemes:
   - "https"
 paths:
-  "/tanatanhName":
+  "/tanatanh2Name":
     get:
       description: "Get the airport name for a given IATA code."
       operationId: "airportName"
