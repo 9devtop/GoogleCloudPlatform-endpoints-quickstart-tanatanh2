@@ -39,3 +39,20 @@ paths:
             type: string
         400:
           description: "The IATA code is invalid or missing."
+ "/tanaName":
+    get:
+      description: "Get the tana name for a given IATA code."
+      operationId: "tanaName"
+      parameters:
+        -
+          name: iataCode
+          in: query
+          required: true
+          type: string
+      responses:
+        200:
+          description: "Success."
+          schema:
+            type: string
+        400:
+          description: "The IATA code is invalid or missing."
