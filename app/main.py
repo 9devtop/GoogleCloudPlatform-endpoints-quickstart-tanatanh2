@@ -21,7 +21,7 @@ from airports import Airports
 app = Flask(__name__)
 airport_util = Airports()
 
-@app.route('/airportName', methods=['GET'])
+@app.route('/tanaName', methods=['GET'])
 def airportName():
     """Given an airport IATA code, return that airport's name."""
     iata_code = request.args.get('iataCode')
