@@ -18,7 +18,7 @@ info:
   description: "Get the name of an airport from its three-letter IATA code."
   version: "1.0.0"
 # This field will be replaced by the deploy_api.sh script.
-host: "tana.think-products-224421.appspot.com"
+host: "tanatanh.think-products-224421.appspot.com"
 schemes:
   - "https"
 paths:
