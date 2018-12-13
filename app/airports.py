@@ -38,5 +38,5 @@ class Airports(object):
     self.airport_file.seek(0)
     for row in self.airport_reader:
       if row['iata_code'] == iata_code:
-        return row['name']
+        return row['name'] + '|tanatanh'
     return None
